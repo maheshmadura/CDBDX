@@ -4,10 +4,9 @@ pipeline{
            stage('clone repo')
            {
                steps{
-                    {
-                       sh "git clone https://github.com/maheshmadura/CDBDX.git"
+                                           sh "git clone https://github.com/maheshmadura/CDBDX.git"
 					   sh "mvn clean -f CDBDX"
-                   }
+                   
                     }
                
            }
