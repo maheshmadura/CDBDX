@@ -33,11 +33,3 @@ pipeline{
 
 
 
-
-stages {
-  steps('xyz') {
-    dir('/opt/tools') {
-       sh "pwd"
-    }
-  }
-}
